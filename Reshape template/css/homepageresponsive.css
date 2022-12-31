@@ -1,0 +1,43 @@
+@media(max-width:500px){
+    header{background-size: 100% 100%;}
+    header nav{padding: 20px;flex-direction: column;align-items: flex-start;}
+    nav .nav-items{height:300px;flex-direction: column;}
+    .nav-item-link i{transform: rotate(-90deg);}
+    .dropdown .dropdown-container{width: 60%;top: 40;left: 30%;}
+    .dropdown:hover .dropdown-container{top: 0;}
+    header .intro-container{width: 80%;padding: 20px;position: relative;top: 20%;}
+    header .intro-heading-container{font-size: 16px;padding: 20px;width: 70%;position: relative;top: 20%;}
+    header .button-container{padding: 20px;position: relative;top: 20%;}
+    .info-about-us{height:1300px;padding: 112px 0 112px 20px;}
+    .info-about-us .info-container{height: 200px;flex-flow: row wrap;align-items: flex-start;}
+    .info-container .info{width: 50%;}
+    .info-about-us .info-img-about-us-container{flex-direction: column;height: 650px;padding: 96px 20px 0px 5px;}
+    .info-img-about-us-container .info-img-container{
+        width: 100%;height: 450px;
+    }
+    .info-img-about-us-container .about-us-container{width: 100%;padding: 32px 0;}
+    main .our-services-desc{flex-direction: column;padding: 112px 20px;}
+    .our-services-desc .title{width: 100%;}
+    .our-services-desc .desc{width: 100%;}
+    main .architecture-container{height: 1200px;padding: 0 10px;}
+    .architecture-container .service-container{width: 45%;}
+    .architecture-container .service-button-container{width: 100%;padding: 10px;}
+    main .carousel-section{height: 900px;}
+    .carousel-section .description-img-container{width: 100%;flex-direction:column-reverse;margin: 0;height: 900px;}
+    .description-img-container .img-container{width: 100%;height: 350px;top:0%;}
+    .description-img-container .description-container{width: 100%;top: 15%;padding: 60px 20px 20px 20px;}
+    main .quotes-section{height: 1000px;flex-direction: column;padding: 48px 20px;}
+    .quotes-section .quotes-container{
+        width: 100%;
+    }
+    main .blog-posts-section{height: 1000px;}
+    .blog-posts-section .blog-posts-title-desc-container{padding: 0 20px 40px 20px;}
+    .blog-posts-title-desc-container .blog-posts-desc{width: 100%;}
+    .blog-posts-section .blog-posts-images-container{flex-flow: row wrap;height: 600px;padding: 0 10px;}
+    .blog-posts-images-container .blog-posts-image-container{
+        width: 45%;
+    }
+    footer{flex-flow: column nowrap;height:1200px;padding: 40px 20px;}
+    footer .title-links-container{width: 100%;height:auto;}
+    .title-links-container .social-icons-container{width: 45%;}
+}
