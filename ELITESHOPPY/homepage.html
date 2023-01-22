@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,900,900italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/homepageresponsive.css">
+    <title>Elite Shoppy</title>
+</head>
+<body>
+    <!-- <div class="fixed-bar"></div> -->
+    <header>
+        <div class="header-child">
+        <div class="contact">
+            <ul class="contact-ul">
+                <li class="contact-li1"></li>
+                <li class="contact-li">
+                    <a href="#"><i class="fa fa-unlock-alt" aria-hidden="true"></i> Sign In </a>
+                </li>
+                <li class="contact-li">
+                    <a href="#"><i class="fa fa-pencil-square" aria-hidden="true"></i> Sign Up </a>
+                </li>
+                <li class="contact-li">
+                    <i class="fa fa-phone" aria-hidden="true"></i> Call:0123456789
+                </li>
+                <li class="contact-li">
+                    <i class="fa fa-envelope" aria-hidden="true"></i> <a href="#">info@example.com</a>
+                </li>
+                <li class="contact-li6"></li>
+            </ul>
+        </div>
+        <div class="main-header">
+            <div class="search-bar">
+                <input type="search" placeholder="Search here...">
+                <button><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
+            </div>
+            <div class="logo">
+                <h1><a href="#"><span>E</span>lite Shoppy <i class="fa fa-shopping-bag top_logo_agile_bag" aria-hidden="true"></i></a></h1>
+            </div>
+            <div class="share-icons">
+                <ul class="social-nav">
+                    <li class="share">Share On : </li>
+                     <li><a href="#" class="facebook icona">
+                           <div class="front"><i class="fa-brands fa-facebook-f"></i></div>
+                           <div class="back"><i class="fa-brands fa-facebook-f"></i></div></a></li>
+                     <li><a href="#" class="twitter icona"> 
+                           <div class="front"><i class="fa-brands fa-twitter"></i></div>
+                           <div class="back"><i class="fa-brands fa-twitter"></i></div></a></li>
+                     <li><a href="#" class="instagram icona">
+                           <div class="front"><i class="fa-brands fa-instagram"></i></div>
+                           <div class="back"><i class="fa-brands fa-instagram"></i></div></a></li>
+                     <li><a href="#" class="linkedin icona">
+                           <div class="front"><i class="fa-brands fa-linkedin"></i></div>
+                           <div class="back"><i class="fa-brands fa-linkedin" ></i></div></a></li>
+                 </ul>
+            </div>
+        </div>
+        <nav>
+            <div class="nav-bar-container">
+            <ul class="nav-bar">
+                <li class="nav-bar-item"><a href="#">Home</a></li>
+                <li class="nav-bar-item"><a href="#">About</a></li>
+                <li class="nav-bar-item mens-wear-submenu " ><a href="javascript:;"onclick="hideShow(submens,subwomens,shortcodes)" id="mensubmenulink">Men's Wear</a><span class="caret"></span>
+                <div class="mens-wear-submenu-container submenu" id="submens" >
+                    <div class="mens-wear-submenu-img-container effect"></div>
+                    <div class="mens-wear-submenu-list-container">
+                        <ul>
+                            <li>Clothing</li>
+                            <li>Wallets</li>
+                            <li>Footwear</li>
+                            <li>Watches</li>
+                            <li>Accessories</li>
+                            <li>Bags</li>
+                            <li>Caps & Hats</li>
+                        </ul>
+                    </div>
+                    <div class="mens-wear-submenu-list-container">
+                        <ul>
+                            <li>Jewellery</li>
+                            <li>Sunglasses</li>
+                            <li>Perfumes</li>
+                            <li>Beauty</li>
+                            <li>Shirts</li>
+                            <li>Sunglasses</li>
+                            <li>Swimwear</li>
+                        </ul>
+                    </div>
+                </div>
+                </li>
+                <li class="nav-bar-item womens-wear-submenu"><a href="javascript:;"onclick="hideShow(subwomens,submens,shortcodes)" id="womenssubmenulink">Women's Wear</a><span class="caret"></span>
+                    <div class="womens-wear-submenu-container submenu"  id="subwomens">
+                        <div class="womens-wear-submenu-list-container">
+                            <ul>
+                                <li>Clothing</li>
+                                <li>Wallets</li>
+                                <li>Footwear</li>
+                                <li>Watches</li>
+                                <li>Accessories</li>
+                                <li>Bags</li>
+                                <li>Caps & Hats</li>
+                            </ul>
+                        </div>
+                        <div class="womens-wear-submenu-list-container">
+                            <ul>
+                                <li>Jewellery</li>
+                                <li>Sunglasses</li>
+                                <li>Perfumes</li>
+                                <li>Beauty</li>
+                                <li>Shirts</li>
+                                <li>Sunglasses</li>
+                                <li>Swimwear</li>
+                            </ul>
+                        </div>
+                        <div class="womens-wear-submenu-img-container effect"></div>
+                    </div>
+                </li>
+                <li class="nav-bar-item short-codes-submenu" ><a href="javascript:;"onclick="hideShortCodes(shortcodes,submens,subwomens)" id="shortcodeslink">Short Codes</a> <span class="caret"></span>
+                    <div class="short-codes-submenu-container"  id="shortcodes">
+                        <ul>
+                            <li>Web Icons</li>
+                            <li>Typography</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-bar-item" id="contact"><a href="#" >Contact</a></li>
+            </ul>
+            </div>
+            <div class="shopping-cart">
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section class="carousel-section">
+            <div class="carousel-section-child">
+            <h3>Summer <span>Collections</span></h3>
+            <p>New arrivals on sale</p>
+            <button>Shop Now</button>
+            </div>
+        </section>
+        <section class="fall-section">
+            <div class="fall-section-child">
+            <div class="fall falldiv1">
+                <h3><span>F</span>all Ahead</h3>
+                <div class="fall-newarrivals"><p>New Arrivals</p></div>
+            </div>
+            <div class="fall falldiv2">
+                <h3><span>F</span>all Ahead</h3>
+                <div class="fall-newarrivals"><p>New Arrivals</p></div>
+            </div>
+            </div>
+        </section>
+        <section class="discount-section">
+            <div class="discount-section-child">
+            <div class="discount-img"></div>
+            <div class="discount-bgcolor">
+                <div class="discount-desc">
+                    <h3 class="discount-h3">Save upto <span>50%</span> this week</h3>
+                    <p>Suspendisse varius turpis efficitur erat laoreet dapibus. Mauris sollicitudin scelerisque commodo.Nunc dapibus mauris sed metus finibus posuere.</p>
+                    <div class="discount-container">
+                    <div class="disc discount-customers">
+                        <i class="fa-regular fa-user"></i>
+                        <h4>Customers</h4>
+                        <h5>653</h5>
+                    </div>
+                    <div class="disc discount-events">
+                        <i class="fa-regular fa-calendar"></i>
+                        <h4>Events</h4>
+                        <h5>823</h5>
+                    </div>
+                    <div class="disc discount-awards">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h4>Awards</h4>
+                        <h5>45</h5>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="trending-section">
+            <div class="trending-section-child">
+            <h3 class="trending-h3">What's <span>Trending</span></h3>
+            <div class="trending-img-container">
+            <div class="t-img trending-img1">
+                <h3 class="trending-img1-h3"><span>S</span>ale</h3>
+                <div class="t-child trending-img1-child">
+                    <p class="trending-img1-p">Upto 55%</p>
+                </div>
+                
+            </div>
+            <div class="t-img trending-img2 t-img2">
+                <h3 class="trending-img2-h3"><span>S</span>ale</h3>
+                <div class="t-child trending-img2-child">
+                    <p class="trending-img2-p">Upto 55%</p>
+                </div>
+                
+            </div>
+            <div class="t-img trending-img2 t-img3">
+                <h3 class="trending-img2-h3"><span>S</span>ale</h3>
+                <div class="t-child trending-img2-child">
+                    <p class="trending-img2-p">Upto 55%</p>
+                </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="offer-section">
+            <div class="offer-section-child">
+            <div class="offer-img o-img1 effect">
+                <h4 class="offer-img-h4">Flat <span>50%</span> offer</h4>
+            </div>
+            <div class="offer-img o-img2 effect">
+                <h4 class="offer-img-h4">Flat <span>50%</span> offer</h4>
+            </div>
+            </div>
+        </section>
+        <section class="newarrivals-section">
+            <h3 class="newarrivals-section-h3">New <span>Arrivals</span></h3>
+            
+                <ul class="new-arrivals-nav-items">
+                    <li class="new-arrivals-nav-item mens">
+                        <b onclick="displayHide(nmens,nwomens,nbags,nfootwear)" id="menslink">Men's</b>
+                        <div class="newarrivals-mains-container-mens" id="nmens">
+                        <div class="newarrivals-mains">
+                            <div class="newarrivals-main">
+                                
+                                <span class="newarrivals-main-span">New</span>
+                                <div class="newarrivals-main-imgcontainer">
+                                    <div class="newarrivals-main-quickview">Quick View</div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main-prdinfo">
+                                    <h4>Formal Blue Shirt</h4>
+                                    <span>$45.99</span>
+                                    <del>$69.71</del>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="newarrivals-main">
+                                
+                                <span class="newarrivals-main-span">New</span>
+                                <div class="newarrivals-main-imgcontainer">
+                                    <div class="newarrivals-main-quickview">Quick View</div>
+                                <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                    <div class="new-arrivals-main-img-contain">
+                                        <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                    <div class="new-arrivals-main-img-contain">
+                                        <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="newarrivals-main-prdinfo">
+                                    <h4>Formal Blue Shirt</h4>
+                                    <span>$45.99</span>
+                                    <del>$69.71</del>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="newarrivals-main">
+                                
+                                <span class="newarrivals-main-span">New</span>
+                                <div class="newarrivals-main-imgcontainer">
+                                    <div class="newarrivals-main-quickview">Quick View</div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main-prdinfo">
+                                    <h4>Formal Blue Shirt</h4>
+                                    <span>$45.99</span>
+                                    <del>$69.71</del>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="newarrivals-main">
+                                
+                                <span class="newarrivals-main-span">New</span>
+                                <div class="newarrivals-main-imgcontainer">
+                                    <div class="newarrivals-main-quickview">Quick View</div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main-prdinfo">
+                                    <h4>Formal Blue Shirt</h4>
+                                    <span>$45.99</span>
+                                    <del>$69.71</del>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="newarrivals-main">
+                                
+                                <span class="newarrivals-main-span">New</span>
+                                <div class="newarrivals-main-imgcontainer">
+                                    <div class="newarrivals-main-quickview">Quick View</div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main-prdinfo">
+                                    <h4>Formal Blue Shirt</h4>
+                                    <span>$45.99</span>
+                                    <del>$69.71</del>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="newarrivals-main">
+                                
+                                <span class="newarrivals-main-span">New</span>
+                                <div class="newarrivals-main-imgcontainer">
+                                    <div class="newarrivals-main-quickview">Quick View</div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main-prdinfo">
+                                    <h4>Formal Blue Shirt</h4>
+                                    <span>$45.99</span>
+                                    <del>$69.71</del>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="newarrivals-main">
+                                
+                                <span class="newarrivals-main-span">New</span>
+                                <div class="newarrivals-main-imgcontainer">
+                                    <div class="newarrivals-main-quickview">Quick View</div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main-prdinfo">
+                                    <h4>Formal Blue Shirt</h4>
+                                    <span>$45.99</span>
+                                    <del>$69.71</del>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                            <div class="newarrivals-main">
+                                
+                                <span class="newarrivals-main-span">New</span>
+                                <div class="newarrivals-main-imgcontainer">
+                                    <div class="newarrivals-main-quickview">Quick View</div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main-prdinfo">
+                                    <h4>Formal Blue Shirt</h4>
+                                    <span>$45.99</span>
+                                    <del>$69.71</del>
+                                    <button>Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+                    <li class="new-arrivals-nav-item womens">
+                        <b onclick="displayHide(nwomens,nmens,nbags,nfootwear)" id="womenslink">Women's</b>
+                        <div class="newarrivals-mains-container-womens hidden" id="nwomens">
+                            <div class="newarrivals-mains">
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalswomenimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="new-arrivals-nav-item bags">
+                        <b onclick="displayHide(nbags,nwomens,nmens,nfootwear)" id="bagslink">Bags</b>
+                        <div class="newarrivals-mains-container-bags hidden" id="nbags">
+                            <div class="newarrivals-mains">
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsbagsimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                    <li class="new-arrivals-nav-item footwear">
+                        <b onclick="displayHide(nfootwear,nwomens,nbags,nmens)" id="footwearlink">Footwear</b>
+                        <div class="newarrivals-mains-container-footwear hidden" id="nfootwear">
+                            <div class="newarrivals-mains">
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                        <div class="new-arrivals-main-img-contain">
+                                            <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                                <div class="newarrivals-main">
+                                    
+                                    <span class="newarrivals-main-span">New</span>
+                                    <div class="newarrivals-main-imgcontainer">
+                                        <div class="newarrivals-main-quickview">Quick View</div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                        <div class="newarrivals-main-img newarrivals-main-imgrotate2">
+                                            <div class="new-arrivals-main-img-contain">
+                                                <img src="images/newarrivalsfootwearimg1.jpg" alt="" width="100%" height="100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="newarrivals-main-prdinfo">
+                                        <h4>Formal Blue Shirt</h4>
+                                        <span>$45.99</span>
+                                        <del>$69.71</del>
+                                        <button>Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                </ul>
+        </section>
+        <section class="bgimg-features">
+            <div class="bgimg-features-child">
+            <div class="bgimg">
+                <p>We offer flat <span>40%</span> discount</p>
+                <a href="#">Shop Now</a>
+            </div>
+            <div class="features">
+                <div class="features-container">
+                    <div class="features-icon">
+                        <i class="fa fa-truck"></i>
+                    </div>
+                <div class="features-desc">
+                    <h3>Free Shipping</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                </div>
+                <div class="features-container">
+                    <div class="features-icon">
+                        <i class="fa fa-headphones"></i>
+                    </div>
+                <div class="features-desc">
+                    <h3>24/7 Support</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                </div>
+                <div class="features-container">
+                    <div class="features-icon">
+                        <i class="fa fa-shopping-bag"></i>
+                    </div>
+                <div class="features-desc">
+                    <h3>Money Back Guarantee</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                </div>
+                <div class="features-container">
+                    <div class="features-icon">
+                        <i class="fa fa-gift"></i>
+                    </div>
+                <div class="features-desc">
+                    <h3>Free Gift Coupon</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-child">
+        <div class="shoppy-desc__icons">
+            <div class="shoppy-desc">
+                <h2><span>E</span>lite Shoppy</h2>
+                <p>Lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.</p>
+            </div>
+            <div class="shoppy-icons">
+                <ul class="social-nav">
+                     <li><a href="#" class="facebook icona">
+                           <div class="front"><i class="fa-brands fa-facebook-f"></i></div>
+                           <div class="back"><i class="fa-brands fa-facebook-f"></i></div></a></li>
+                     <li><a href="#" class="twitter icona"> 
+                           <div class="front"><i class="fa-brands fa-twitter"></i></div>
+                           <div class="back"><i class="fa-brands fa-twitter"></i></div></a></li>
+                     <li><a href="#" class="instagram icona">
+                           <div class="front"><i class="fa-brands fa-instagram"></i></div>
+                           <div class="back"><i class="fa-brands fa-instagram"></i></div></a></li>
+                     <li><a href="#" class="linkedin icona">
+                           <div class="front"><i class="fa-brands fa-linkedin"></i></div>
+                           <div class="back"><i class="fa-brands fa-linkedin" ></i></div></a></li>
+                 </ul>
+            </div>
+        </div>
+        <div class="our-info">
+            <h4>Our <span>Information</span></h4>
+            <ul class="our-info-list">
+                <li class="our-info-list-items"><a href="#">Home</a></li>
+                <li class="our-info-list-items"><a href="#">Men's Wear</a></li>
+                <li class="our-info-list-items"><a href="#">Women's Wear</a></li>
+                <li class="our-info-list-items"><a href="#">About</a></li>
+                <li class="our-info-list-items"><a href="#">Short Codes</a></li>
+                <li class="our-info-list-items"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="store-infos">
+            <h4>Store <span>Information</span></h4>
+            <div class="store-info store-info-phonenum">
+                <div class="icon-container">
+                    <i class="fa fa-phone"></i>
+                </div>
+                
+                <h6>Phone Number</h6>
+                <pre>+1 234 567 8901</pre>
+            </div>
+            <div class="store-info store-info-email">
+                <div class="icon-container">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                
+                <h6>Email-Address</h6>
+                <p>Email: mail@example.com</p>
+            </div>
+            <div class="store-info store-info-location">
+                <div class="icon-container">
+                    <i class="fa fa-map-marker"></i>
+                </div>
+                
+                <h6>Location</h6>
+                <p>Broome St,NY
+                   10002,California,USA.
+                </p>
+            </div>
+        </div>
+        <div class="flickr-posts">
+            <h4>Flickr <span>Posts</span></h4>
+            <ul>
+                <li><a href="#"><img src="images/t1.jpg" alt=" " class="img-responsive" width="100%" height="100%"/>
+                </a></li>
+                <li><a href="#"><img src="images/t2.jpg" alt=" " class="img-responsive" width="100%" height="100%"/>
+                </a></li>
+                <li><a href="#"><img src="images/t3.jpg" alt=" " class="img-responsive" width="100%" height="100%"/>
+                </a></li>
+                <li><a href="#"><img src="images/t4.jpg" alt=" " class="img-responsive" width="100%" height="100%"/>
+                </a></li>
+                <li><a href="#"><img src="images/t1.jpg" alt=" " class="img-responsive" width="100%" height="100%"/>
+                </a></li>
+                <li><a href="#"><img src="images/t2.jpg" alt=" " class="img-responsive" width="100%" height="100%"/>
+                </a></li>
+                <li><a href="#"><img src="images/t3.jpg" alt=" " class="img-responsive" width="100%" height="100%"/>
+                </a></li>
+                <li><a href="#"><img src="images/t2.jpg" alt=" " class="img-responsive" width="100%" height="100%"/>
+                </a></li>
+                <li><a href="#"><img src="images/t4.jpg" alt=" " class="img-responsive" width="100%" height="100%"/>
+                </a></li>
+            </ul>
+        </div>
+        <div class="sign-up">
+            <h3>Sign up for Newsletter!</h3>
+            <input type="email" placeholder="Enter your e-mail...">
+            <button>Submit</button>
+        </div>
+        <div class="copyright">
+            <p> &#169; 2017.Elite Shoppy.All rights reserved</p>
+        </div>
+        </div>
+    </footer>
+    <script src="js/homepage.js"></script>
+</body>
+</html>
